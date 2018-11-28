@@ -2,6 +2,10 @@ package com.example.demo.exception;
 
 public class UserManagementException extends Exception {
 
+	public UserManagementException(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * 
 	 */
