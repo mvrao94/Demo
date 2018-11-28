@@ -8,6 +8,6 @@ import com.example.demo.model.User;
 public interface UserRepository extends MongoRepository<User, String> {
 
 	@Query("{'FirstName' : {$regex: ?0, $options: 'i' }}")
-	User findByUserName(final String firstName);
+	User findByFirstName(final String firstName);
 
 }
